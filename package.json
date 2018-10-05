@@ -1,16 +1,19 @@
 {
-  "name": "nyt-search",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nyt-react-mongo",
+  "version": "1.0.0",
+  "main": "server.js",
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "1.1.5"
+    "express": "^4.16.3",
+    "mango": "0.0.4",
+    "mongoose": "^5.3.1",
+    "routes": "^2.1.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "juhi",
+  "license": "ISC",
+  "description": ""
 }
